@@ -64,6 +64,7 @@
                  (select-keys [:name :sprite :licenses :file
                                :cost :category :hull :shields :mass
                                :engine-capacity :weapon-capacity :fuel-capacity
+                               :thruster-slot :steering-slot :reverse-thruster-slot
                                :outfits :outfit-space :cargo-space
                                :required-crew :bunks :description
                                :guns :turrets :drones :fighters
