@@ -54,7 +54,11 @@
    "Power"
    "Engines"
    "Hand to Hand"
-   "Special"])
+   "Heads Up Displays"
+   "Unique"
+   "Minerals"
+   "Special"
+   "Licenses"])
 
 (defn outfit-item [name quantity]
   (let [link (routes/outfit-link name)]
@@ -110,6 +114,8 @@
             (render-attribute ship-with-modification :outfit-space "outfit space")
             (render-attribute ship-with-modification :weapon-capacity "weapon capacity")
             (render-attribute ship-with-modification :engine-capacity "engine capacity")
+            (render-attribute ship-with-modification :thruster-slots "thruster slots")
+            (render-attribute ship-with-modification :steering-slots "steering slots")
             (render-attribute ship-with-modification (or-zero :guns) "guns")
             (render-attribute ship-with-modification (or-zero :turrets) "turrets")
             (when (pos? (:drones ship-with-modification))
