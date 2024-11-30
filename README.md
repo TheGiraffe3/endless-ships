@@ -1,7 +1,8 @@
 # Endless Sky reference site generator
 
 This is a tool for generating a website with reference information about the [Endless Sky Delta](https://github.com/endless-sky/Endless-Sky-Delta/) game.
-**This is a copy of 7even's version for Endless Sky updated for Delta. Most of the coding was done by him.**
+
+**This is a copy of 7even's version for Endless Sky, but this one is updated for ESDelta. Credit for most of the coding goes to 7even.**
 
 The generator works by parsing the game's sources (specifically `data/*.txt` files) to get all game data so the information always stays up-to-date.
 
