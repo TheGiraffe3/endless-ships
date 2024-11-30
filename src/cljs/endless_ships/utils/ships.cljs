@@ -17,6 +17,8 @@
              "Shields"      {:value (or-zero :shields)}
              "Mass"         {:value (or-zero :mass)}
              "Engine cap."  {:value (or-zero :engine-capacity)}
+             "Thrust slots" {:value :thruster-slots}
+             "Turn slots"   {:value :steering-slots}
              "Weapon cap."  {:value (or-zero :weapon-capacity)}
              "Fuel cap."    {:value (or-zero :fuel-capacity)}
              "Outfit sp."   {:value (or-zero :outfit-space)}
