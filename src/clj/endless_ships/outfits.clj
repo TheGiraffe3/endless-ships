@@ -31,10 +31,12 @@
      :thrust times-3600
      :thrusting-energy times-60
      :thrusting-heat times-60
+     :thruster-slot -
      ;; steerings
      :turn times-60
      :turning-energy times-60
      :turning-heat times-60
+     :steering-slot -
      ;; reverse thrusters
      :reverse-thrust times-3600
      :reverse-thrusting-energy times-60
@@ -44,6 +46,7 @@
      :afterburner-energy times-60
      :afterburner-fuel times-60
      :afterburner-heat times-60
+     :engine-mod-space -
      ;; reactors & solar collectors
      :energy-generation times-60
      :heat-generation times-60
