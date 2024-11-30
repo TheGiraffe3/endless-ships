@@ -1,3 +1,6 @@
 [submodule "resources/game"]
 	path = resources/game
 	url = https://github.com/endless-sky/endless-sky.git
+[submodule "resources/Endless-Sky-Delta"]
+	path = resources/game/
+	url = https://github.com/endless-sky/Endless-Sky-Delta
