@@ -79,6 +79,8 @@
      [right-cell (format-number shields)]
      [right-cell (format-number mass)]
      [right-cell (format-number engine-capacity)]
+     [right-cell (format-number thruster-slots)]
+     [right-cell (format-number steering-slots)]
      [right-cell (format-number weapon-capacity)]
      [right-cell (format-number fuel-capacity)]
      [right-cell (format-number outfit-space)]
